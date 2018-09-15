@@ -1,0 +1,18 @@
+{ "Year": "2012",  "County": "KINGS", "Gender": "M", "Count": 272 },
+{ "Year": "2012",  "County": "KINGS", "Gender": "M", "Count": 268},
+{ "Year": "2013",  "County": "QUEENS", "Gender": "F", "Count": 219},
+{ "Year": "2013",  "County": "KINGS", "Gender": "M", "Count": 219},
+{ "Year": "2014",  "County": "QUEENS", "Gender": "F", "Count": 216},
+{ "Year": "2015",  "County": "KINGS", "Gender": "M", "Count": 272},
+{ "Year": "2016",  "County": "KINGS", "Gender": "M", "Count": 268},
+{ "Year": "2017",  "County": "QUEENS", "Gender": "F", "Count": 219},
+{ "Year": "2013",  "County": "KINGS", "Gender": "M", "Count": 219},
+{ "Year": "2013",  "County": "QUEENS", "Gender": "F", "Count":216},
+{ "Year": "2013",  "County": "KINGS", "Gender": "M", "Count": 272},
+{ "Year": "2013",  "County": "KINGS", "Gender": "M", "Count": 268},
+{ "Year": "2014",  "County": "QUEENS", "Gender": "F", "Count": 219},
+{ "Year": "2014",  "County": "KINGS", "Gender": "M", "Count": 219},
+{ "Year": "2014",  "County": "QUEENS", "Gender": "F", "Count": 216}
+
+
+val babyDF = sqlContext.read.json("/user/cloudera/batch31/sparksql/babies/input")
